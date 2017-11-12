@@ -2,6 +2,8 @@
 import mraa
 import time
 
+print (mraa.getVersion())
+
 led= mraa.Gpio(13)
 led.dir(mraa.DIR_OUT)
 
